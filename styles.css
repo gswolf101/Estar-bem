@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: lightblue; /* Default color */
-    transition: background-color 0.5s;
+    background: linear-gradient(to right, #87CEEB, #98FB98); /* Default gradient: lightblue to lightgreen */
+    transition: background 0.5s;
 }
 
 .container {
@@ -11,6 +11,8 @@ body {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for content */
+    border-radius: 10px;
 }
 
 h1 {
